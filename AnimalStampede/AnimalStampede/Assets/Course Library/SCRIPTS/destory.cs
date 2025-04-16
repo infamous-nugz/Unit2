@@ -4,7 +4,7 @@ using UnityEngine;
 public class destory : MonoBehaviour
 
 {
-    private float topbound = 30;
+    private float topbound = 50;
     private float downbound = -15;
 
 
