@@ -17,12 +17,14 @@ public class destory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //game over
         if (transform.position.z > topbound)
         {
             Destroy(gameObject);
         }
         else if (transform.position.z < downbound)
         {
+            Debug.Log("game over");
             Destroy(gameObject);
         }
         
